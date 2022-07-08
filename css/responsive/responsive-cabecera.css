@@ -1,0 +1,248 @@
+@media screen and (min-width: 0px) {
+  /* <!**** Logo ***> */
+
+  header.cabecera {
+    display: block;
+  }
+
+  header.cabecera div.cabecera__logo {
+    height: 3rem;
+  }
+
+  header.cabecera div.cabecera__logo a {
+    width: 40%;
+    text-align: end;
+  }
+
+  header.cabecera div.cabecera__logo img.logo {
+    width: 2rem;
+    padding: 0;
+    margin-left: 0.5rem;
+  }
+  header.cabecera div.cabecera__logo p.cabecera__nombre {
+    font-size: 1rem;
+    width: 50%;
+    padding-left: 0.1rem;
+    padding-top: 0.8rem;
+    text-align: left;
+  }
+
+  /* <!**** Menu cabecera ****> */
+
+  nav.menu #enlace-sobre_Mi,
+  #enlace-skill,
+  #enlace-hobbies,
+  #enlace-formacion,
+  #enlace-experiencia {
+    display: none;
+  }
+  nav.menu ul.menu__items {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 0.875;
+  }
+
+  /*<!**** INFORMACION DENTRO DEL BANNER ****> */
+  section.datosPerfil__contenido {
+    /* background-image: url(../../img/banner.jpg);*/
+    background-color: var(--background-negro-pasas);
+  }
+
+  section.datosPerfil__contenido {
+    display: flex;
+    flex-direction: column;
+  }
+  img.perfil__foto {
+    width: 6.125rem;
+    margin: 1rem 0 0 1rem;
+  }
+
+  h1.datosDescripcion_titulo {
+    font-size: 1.375rem;
+    padding: 1rem 1rem 0;
+  }
+  div.datos__descripcion p {
+    margin: 2rem 1rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  div.datos__descripcion nav.redes__sociales {
+    margin: 1rem 0 1rem 1rem;
+    font-size: 0.875rem;
+  }
+  div.datos__descripcion nav.redes__sociales ul li {
+    padding-right: 0.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* <!**** Logo ***> */
+
+  header.cabecera {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header.cabecera div.cabecera__logo {
+    height: 4rem;
+  }
+  header.cabecera div.cabecera__logo a {
+    width: 20%;
+    text-align: end;
+  }
+
+  header.cabecera div.cabecera__logo img.logo {
+    width: 3.5rem;
+    padding: 0;
+    margin-left: 2rem;
+  }
+  header.cabecera div.cabecera__logo p.cabecera__nombre {
+    font-size: 1.5rem;
+    width: 50%;
+    padding-left: 0.5rem;
+    padding-top: 0.8rem;
+    text-align: left;
+  }
+
+  /* <!**** Menu cabecera ****> */
+
+  nav.menu #enlace-sobre_Mi,
+  #enlace-skill,
+  #enlace-hobbies,
+  #enlace-formacion,
+  #enlace-experiencia {
+    display: none;
+  }
+  nav.menu ul.menu__items {
+    text-align: center;
+    margin-right: 2rem;
+    font-size: 0.875;
+    margin-top: 1.3rem;
+  }
+
+  /*<!**** INFORMACION DENTRO DEL BANNER ****> */
+  section.datosPerfil__contenido {
+    /* background-color: var(--background-negro-pasas);*/
+    background-image: url(../../img/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  section.datosPerfil__contenido {
+    display: inline-flex;
+    flex-direction: row-reverse;
+  }
+  img.perfil__foto {
+    width: 15rem;
+  }
+  div.imagen-foto {
+    margin: 3rem 3rem 3rem 0;
+  }
+  div.datos__descripcion {
+    margin-left: 1rem;
+  }
+
+  h1.datosDescripcion_titulo {
+    font-size: 1.5rem;
+    padding: 1rem 1rem 0;
+    margin-top: 3rem;
+  }
+  div.datos__descripcion p {
+    margin: 2rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  div.datos__descripcion nav.redes__sociales {
+    margin: 1rem 0 1rem 1rem;
+    font-size: 1rem;
+  }
+  div.datos__descripcion nav.redes__sociales ul li {
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* <!**** Logo ***> */
+
+  header.cabecera {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header.cabecera div.cabecera__logo {
+    height: 5rem;
+    margin-left: 9.25rem;
+    width: 24%;
+  }
+  header.cabecera div.cabecera__logo a {
+    text-align: left;
+    width: 30%;
+  }
+
+  header.cabecera div.cabecera__logo img.logo {
+    width: 3.5rem;
+    padding: 0;
+    margin-left: 2rem;
+  }
+  header.cabecera div.cabecera__logo p.cabecera__nombre {
+    font-size: 1.5rem;
+    padding-left: 0rem;
+    padding-top: 0.8rem;
+    text-align: left;
+    width: 12rem;
+  }
+
+  /* <!**** Menú cabecera ****> */
+
+  nav.menu #enlace-sobre_Mi,
+  #enlace-skill,
+  #enlace-hobbies,
+  #enlace-formacion,
+  #enlace-experiencia {
+    display: inline;
+  }
+  nav.menu ul.menu__items {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  /*<!**** INFORMACION DENTRO DEL BANNER ****> */
+  section.datosPerfil__contenido {
+    background-image: url(../../img/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  section.datosPerfil__contenido {
+    display: inline-flex;
+    flex-direction: row-reverse;
+  }
+  img.perfil__foto {
+    width: 25rem;
+  }
+  div.imagen-foto {
+    margin: 3rem 10rem 2rem 0;
+  }
+  div.datos__descripcion {
+    margin-left: 9.5rem;
+  }
+
+  h1.datosDescripcion_titulo {
+    font-size: 3.5rem;
+    padding: 1rem 1rem 0;
+    margin-top: 3rem;
+  }
+  div.datos__descripcion p {
+    margin: 2rem 1rem;
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+  div.datos__descripcion nav.redes__sociales {
+    margin: 1rem 0 1rem 1rem;
+    font-size: 1.375rem;
+  }
+  div.datos__descripcion nav.redes__sociales ul li.header__enlace {
+    padding-right: 0.5rem;
+  }
+}

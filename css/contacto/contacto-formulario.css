@@ -1,0 +1,49 @@
+section.contacto__container div.contacto-contenido form.contacto__formulario {
+  background: var(--background-negro-pasas);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: var(--background-blanco-talco);
+
+  padding: 2rem;
+}
+section.contacto__container
+  div.contacto-contenido
+  form.contacto__formulario
+  input.enviar {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1rem;
+  background: white;
+  font-size: 0.775rem;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+section.contacto__container
+  div.contacto-contenido
+  form.contacto__formulario
+  input,
+label,
+textarea,
+legend {
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  outline: 1rem;
+  resize: none;
+}
+/*formato- mensaje cantidad de caraceres*/
+.texto-padron {
+  font-size: 0.8rem;
+  color: var(--background-blanco-talco);
+  text-align: end;
+  text-transform: lowercase;
+}
+
+input.input-padron:hover,
+textarea.input-padron:hover {
+  border-color: lightgreen;
+}

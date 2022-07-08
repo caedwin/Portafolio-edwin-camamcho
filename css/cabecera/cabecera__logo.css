@@ -1,0 +1,12 @@
+.cabecera__logo {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.cabecera__nombre {
+  color: var(--background-blanco-talco);
+  font-weight: bold;
+}

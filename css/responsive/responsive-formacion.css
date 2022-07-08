@@ -1,0 +1,116 @@
+@media screen and (min-width: 0px) {
+  .card {
+    width: 15rem;
+    height: 8.375rem;
+    margin-bottom: 6.5rem;
+  }
+  .card .card-front img {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+  }
+  .card .card-front img.imagen-cisco {
+    margin-left: 0rem;
+    display: none;
+  }
+  .card .face {
+    position: absolute;
+  }
+  .cardAcademico__contenedor {
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+  }
+  .card div.card-texto {
+    margin-top: 10rem;
+    font-size: 1rem;
+  }
+  div.card div.card-back p {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .card-back ul li.card__lista {
+    font-size: 0.5rem;
+    line-height: 1.8;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card {
+    width: 13rem;
+    height: 8.375rem;
+    margin: 2rem 1rem 5rem 0;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+  }
+  .card .card-front img {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+  }
+  .card .card-front img.imagen-cisco {
+    margin-left: 0rem;
+    display: none;
+  }
+  .card .face {
+    padding: 0.5rem;
+    position: absolute;
+  }
+  .cardAcademico__contenedor {
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+  }
+  .card-texto .card__titulo {
+    margin: 0;
+  }
+  div.card div.card-back p {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .card-back ul li.card__lista {
+    font-size: 0.5rem;
+    line-height: 1.8;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 23rem;
+    height: 17.875rem;
+    margin-bottom: 9rem;
+  }
+  .cardAcademico__contenedor {
+    padding-bottom: 2rem;
+  }
+
+  .card .card-front img {
+    width: 100%;
+    text-align: center;
+  }
+  .card .card-front img.imagen-cisco {
+    margin-left: 0rem;
+    display: block;
+  }
+  .card .face {
+    position: absolute;
+  }
+  .cardAcademico__contenedor {
+    text-align: center;
+    margin: 0 9.25rem;
+    justify-content: center;
+  }
+  .card__titulo {
+    font-size: 1.375rem;
+  }
+  .card div.card-texto {
+    margin-top: 20rem;
+    font-size: 1.5rem;
+  }
+  div.card div.card-back p {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .card-back ul li.card__lista {
+    font-size: 0.5rem;
+    line-height: 1.8;
+  }
+}

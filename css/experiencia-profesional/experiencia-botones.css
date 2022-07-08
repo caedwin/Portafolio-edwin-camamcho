@@ -1,0 +1,26 @@
+section.experiencia-profesional
+  div.experiencia-profesional__contenido
+  div.controladores
+  div.botones
+  img.demo-sonido {
+  background: var(--background-azul-claro);
+  border-radius: 1rem;
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 0.5rem;
+  text-align: center;
+  width: 0.7rem;
+}
+button.apagar-audio {
+  background: var(--background-rojo-fuego);
+  padding: 0.2rem;
+  width: 3rem;
+}
+button.apagar-audio img {
+  padding: 0.19rem;
+  width: 1rem;
+}
+button.apagar-audio:hover {
+  background: black;
+  transition: 500ms;
+}

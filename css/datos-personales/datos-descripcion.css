@@ -1,0 +1,13 @@
+section.datos__perfil div.datos__descripcion {
+  color: var(--fuente-blanco-talco);
+}
+section.datos__perfil div.datos__descripcion p {
+  color: var(--fuente-blanco-talco);
+}
+section.datos__perfil
+  div.datos__descripcion
+  nav.redes__sociales
+  ul
+  li.datosPerfil__enlace {
+  color: var(--background-amarillo-seguridad);
+}

@@ -1,0 +1,12 @@
+section.experiencia-profesional div.experiencia-profesional__contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-style: dotted;
+  border-color: var(--background-rojo-fuego);
+  border-width: 1px;
+}
+
+.experiencia-profesional__contenido {
+  background-color: var(--background-gris-claro);
+}

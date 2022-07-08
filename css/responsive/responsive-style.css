@@ -1,0 +1,48 @@
+@media screen and (min-width: 0px) {
+  .titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 3rem 0 2rem;
+    text-align: center;
+  }
+
+  main,
+  p.texto-general {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1.5rem;
+    text-align: center;
+  }
+  #sobre-mi {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 2rem;
+  }
+  main,
+  p.texto-general {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  #sobre-mi {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 2rem;
+  }
+  main,
+  p.texto-general {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}

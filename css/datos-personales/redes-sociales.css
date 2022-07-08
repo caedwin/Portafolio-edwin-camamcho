@@ -1,0 +1,11 @@
+section.datos__perfil nav.redes__sociales ul li.datosPerfil__enlace {
+  display: inline;
+  font-weight: 600;
+}
+
+section.datos__perfil nav.redes__sociales ul li.datosPerfil__enlace a:hover,
+header.cabecera nav.menu ul.menu__items li.headre__enlace a:hover {
+  border-bottom: 0.3rem;
+  border-color: blue;
+  border-style: solid;
+}

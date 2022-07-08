@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portafolio | Edwin Camacho</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Soy desarrollador Frontend React Developer, apasionado a la codificación y la experiencia del usuario, me especializo en crear experiencias digitales en la web">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="./img/logo_toro_ico.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/cabecera/cabecera.css">
+        <link rel="stylesheet" href="./css/cabecera/cabecera__logo.css">
+        <link rel="stylesheet" href="./css/cabecera/menu.css">
+        <link rel="stylesheet" href="./css/datos-personales/datos-descripcion.css">
+        <link rel="stylesheet" href="./css/datos-personales/foto-perfil.css">
+        <link rel="stylesheet" href="./css/datos-personales/redes-sociales.css">
+        <link rel="stylesheet" href="./css/datos-personales/titulo.css">
+        <link rel="stylesheet" href="./css/datos-personales/datos-personales.css">
+        <link rel="stylesheet" href="./css/datos-personales/palabra-animada.css">
+        <link rel="stylesheet" href="./css/sobre-mi/sobre-mi-texto.css">
+        <link rel="stylesheet" href="./css/formacion-academica/formacion-academica-tarjeta.css">
+        <link rel="stylesheet" href="./css/experiencia-profesional/experiencia-controladores.css">
+        <link rel="stylesheet" href="./css/experiencia-profesional/experiencia-profesional.css">
+        <link rel="stylesheet" href="./css/experiencia-profesional/experiencia-botones.css"> 
+        <link rel="stylesheet" href="./css/contacto/contacto-formulario.css">
+        <link rel="stylesheet" href="./css/contacto/contacto.css">
+        <link rel="stylesheet" href="./css/pie-de-pagina/footer.css">
+        <link rel="stylesheet" href="./css/responsive/responsive-cabecera.css">
+        <link rel="stylesheet" href="./css/responsive/responsive-sobre-mi.css">
+        <link rel="stylesheet" href="./css/responsive/responsive-experiencia.css">
+        <link rel="stylesheet" href="./css/responsive/responsive-style.css">
+        <link rel="stylesheet" href="./css/responsive/responsive-formacion.css">
+        <link rel="stylesheet" href="./css/responsive/responsive-contacto.css">
+        <link rel="stylesheet" href="./css/responsive/reponsive-piePagina.css">
+    </head>
+    <body>
+        <header class="cabecera cabecera_contenedor" >
+            <div class="cabecera__logo">
+                <a href="/"><img src="./img/logo toro.png" alt="logo-toro" class="logo" width="80"></a>
+                <p class="cabecera__nombre">Edwin Camacho</p>
+            </div>
+            <nav class="menu">
+                <ul class="menu__items">
+                    <li class="header__enlace" id="enlace-sobre_Mi"><a href="#sobre-mi">Sobre mi</a></li>
+                    <li class="header__enlace" id="enlace-skill"><a href="#skill">Skill</a></li>
+                    <li class="header__enlace" id="enlace-hobbies"><a href="#hobbies">Hobbies</a></li>
+                    <li class="header__enlace" id="enlace-formacion"><a href="#formacion__academica">Formación</a></li>
+                    <li class="header__enlace" id="enlace-experiencia"><a href="#experiencia_profesional">Proyectos</a></li>
+                    <li class="header__enlace" id="mail"><a href="https://mail.google.com/mail/u/0/?nocheckbrowser#inbox?compose=GTvVlcRwRQGSQdzhJXWRprzmNggTZZHvNVNFtMpvSkNfbRBnBFhPSRxhvgGBdkTppxsZcxnFJCSvZ" target="_blank">edwin.a.camacho@gmail.com</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="contenidoPrincipal" >
+            <section class="datos__perfil datosPerfil__contenido" id="principal">
+                    <div class="imagen-foto">
+                        <img src="./img/IMG-20201109-WA0004.jpg" width="200" alt="Edwin Camacho" class="perfil__foto" id="SobreMi">
+                    </div>
+                    <div class="datos__descripcion">
+                        <h1 class="datosDescripcion_titulo">Hola, soy <b class="perfil-texto-resaltado">Edwin Camacho</b> y construyo <b class="palabra-animada">páginas web</b></h1>
+                        <p class="texto-general"><b class="perfil-texto-resaltado">Ingeniero en Informática</b> de<label id="edad"></label>años, venezolano, actualmente participa en el proyecto de <b class="perfil-texto-resaltado">Oracle ONE</b> en Alura LATAM </p>
+                        <nav class="redes__sociales">
+                            <ul>     
+                                <li class="datosPerfil__enlace"><a href="https://github.com/caedwin" target="_blank">GitHub ↗</a></li>
+                                <li class="datosPerfil__enlace"><a href="https://www.linkedin.com/in/edwin-camacho-cordero/" target="_blank">Linkedin ↗</a></li>
+                                <li class="datosPerfil__enlace"><a href="https://www.instagram.com/ec.developers/" target="_blank">Instagram ↗</a></li>
+                                <li class="datosPerfil__enlace"><a href="https://drive.google.com/file/d/1y9X83HKZgEYvl3EG8nannGiGALCqJHzK/view?usp=sharing" target="_blank">Curriculum ↗</a></li>    
+                            </ul>
+                        </nav> 
+                    </div>
+            </section>
+            <section class="sobreMi_contenido" >
+                <h2 id="sobre-mi">Sobre Mi</h2>
+                <p class="sobreMi__texto">Soy desarrollador Frontend React Developer, apasionado a la codificación y la experiencia del usuario, me especializo en crear experiencias digitales en la web, me encantan los diseños simples y modernos. Soy una persona autodidacta, y siempre que puedo intento aprender nuevas tecnologías. </p>
+                <p class="sobreMi__texto">Nací Caracas-Venezuela, cursé estudios en la <b class="texto-resaltado">Universidad Alejandro de Humboldt</b> obteniendo el título en <b class="texto-resaltado">Ingeniería en Informática.</b></p>
+                <p class="sobreMi__texto">Actualmente me enfoco en crear aplicaciones web accesibles, centradas en la experiencia del usuario y escalables. También me encuentro participando en el proyecto de Oracle ONE con el equipo de Alura Latam, donde afianzo mis conocimientos en nuevas tecnologías y mejorando mi codificación con las nuevas prácticas utilizadas en el mercado. </p>
+                <p class="sobreMi__texto">Estoy buscando formar parte de un proyecto que me permita desarrollar los conocimientos adquiridos durante mi capacitación y me haga crecer profesionalmente.  </p>
+                <img src="/img/firma.png" alt="firma" class="sobreMi__firma">
+            </section> 
+            <section class="skill__contenedor contenedor">
+                <h2 id="skill" class="titulo">Skill</h2>
+                <div class="card__skill___contenedor card__contenedor">
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Manejo de la sintaxis del lenguaje de programación (elementos y etiquetas), permitiéndome estructurar las páginas web con objetos animados, añadir eventos que permitan interactuar con la página en búsqueda de mejorar la experiencia del usuario. </p>
+                        </div> 
+                        <div class="card__contenido">
+                            <img src="./icon/icon_html5.png"><br>
+                            <a href="#">HTML5</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">  
+                        </div>  
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Manejo básico del lenguaje de programación, pero formándome para mejorar mis habilidades con la herramienta. Actualmente, con este lenguaje de programación me permite darles interactividad dinámica a los sitios web.</p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/icon_JS.png"><br>
+                            <a href="#">Javascript</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>   
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Manejo básico del lenguaje, pero formándome para mejorar mis habilidades con la herramienta. Actualmente, con este lenguaje de programación me permite desarrollar páginas web y aplicaciones dinámicas favoreciendo la conexión entre el servidor y la interfaz del usuario.</p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/icon_PHP.png"><br>
+                            <a href="#">PHP</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card"> Manejo básico de la herramienta, pero formándome para mejorar mis habilidades.  Lo uso para controlar los eventos en tiempo de ejecución de los códigos de javascript con los servidores, la transferencia de datos (push) y servicios de API de back-end.</p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/icon_node.png"><br>
+                            <a href="#">Node JS</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">React me ayuda a crear interfaces de usuario interactivas de forma sencilla. Diseña vistas simples para cada estado en las aplicaciones renderizandolo de manera eficiente.</p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/icon_react.png"><br>
+                            <a href="#">React</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Lenguaje con el que manejo el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de las páginas.</p>
+                        </div>
+                        <div class="card__contenido" >
+                            <img src="./icon/icon_css.png"><br>
+                            <a href="#">CSS</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Conocimeinto que me permite la administración y mantenimiento de equipos dedicados a guardar datos. Su función es muy importante para todo negocio cuyo crecimiento depende del manejo eficiente de la información.</p>
+                        </div>
+                        <div class="card__contenido" >
+                            <img src="./icon/servidores.png"><br>
+                            <a href="#">Servidores</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Con este conocimiento tengo la capacidad de diseñar, configurar, detectar fallas y administrar redes informáticas basadas en una infraestructura con equipos cisco que puedan afectar el flujo de los datos transportados en la red empresarial.</p>
+                        </div>
+                        <div class="card__contenido" >
+                            <img src="./icon/redes.png"><br>
+                            <a href="#">Redes Cisco CCNA</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Manejo de centrales telefónicas Empresariales con tecnologías desarrolladas por Mitrol, Asterix o Avaya que permiten administrar y automatizar llamadas inbound/outbound, interactuando con el cliente y enrutandolas al destinatario o bien al sector apropiado dentro de la empresa.</p>
+                        </div>
+                        <div class="card__contenido" >
+                            <img src="./icon/ivr.png"><br>
+                            <a href="#">Central IVR</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Tengo el conocimiento para la configuración y administración de conexiones VPN para trabajo remotos y transferencias de datos de extremo a extremo de forma segura bajo protocolos de encriptación.</p>
+                        </div>
+                        <div class="card__contenido" >
+                            <img src="./icon/enlaces.png"><br>
+                            <a href="#">VPN</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="hobbies__contenedor contenedor">
+                <h2 id="hobbies" class="titulo">Hobbies</h2>
+                <div class="card__hobbies___contenedor card__contenedor">
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Me encanta viajar, esto me permite conocer gente nueva y adaptarme a sus costumbres global y culturalmente. Me ayuda a mantener la mente aguda, aumenta mi creatividad y me ayuda a crecer personal y culturalmente.</p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/barco.png"><br>
+                            <a href="#">Viajar</a> 
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>    
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Me gusta tocar guitarra acústica, no soy muy profesional pero manejo el instrumento lo suficiente para disfrutar con amigos y familia.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/icon_guitar.png"><br>
+                            <a href="#">Tocar Guitarra</a> 
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div> 
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Uno de los placeres de la vida es oír música, esto nos permite equilibrar nuestras emociones y nuestro estado de ánimo. Cuando trabajo me gusta escuchar música, esto me hace sentir relajado y me ayuda con el estrés de mis actividades diarias.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/icon_musica.png"><br>
+                            <a href="#">Oir música</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Soy muy observador y me encanta tomar fotos de paisajes y de los alimentos que me gustan.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/icon_fotos.png"><br>
+                            <a href="#">Tomar Fotos</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Me gusta realizar cursos online, permitiéndome estar al día con nuevas tecnologías que van surgiendo y metodologías prácticas que favorecen el crecimiento profesional.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/e-learning.png"><br>
+                            <a href="#">Aprendizaje Online</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                 </div>  
+            </section>  
+            <section class="habilidades__contenedor contenedor">
+                <h2 id="habilidades" class="titulo">Habilidades</h2>
+                <div class="card__habilidades___contenedor card__contenedor">
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Tengo la capacidad de Influir positivamente en las personas, motivar y organizar grupo de personas para alcanzar los objetivos y metas propuestas.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/liderazgo-icon.png"><br>
+                            <a href="#">Liderazgo</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20"> 
+                        </div>    
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Me gusta y apoyo los cambios que puedan mejorar la forma de hacer las cosas. Conozco mis fortalezas y mis debilidades, trabajo constantemente para mejorar lo que me propongo. Me gusta analizar los factores de riesgos y anticiparme a solucionarlos antes que acurran.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/proactividad-icon.png"><br>
+                            <a href="#">Proactividad</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20"> 
+                        </div> 
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Tengo la habilidad para trabajar con otras personas y adaptarme al entorno, cumplo con las actividades que se me asignan que permitan alcanzar los objetivos comunes. Apoyo la colaboración entre equipos y el aprendizaje continuo.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/equipo-icon.png"><br>
+                            <a href="#">Trabajo en equipo</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Tengo la capacidad de manejar situaciones o circunstancias de adversidades que me puedan afectar emocionalmente. Trato de mantenerme activo para minimizar la curva de recuperación y sobreponerme rápidamente ante dicha situación.  <p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/persona-icon.png"><img src="/icon/premio-icon.png" width="16"><br>
+                            <a href="#">Resiliencia</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Soy una persona alegre y me gusta compartir con otras personas, me adapto rápidamente a los grupos, me gusta escuchar lo que piensan otras personas o conocer su punto de vista ante ciertas situaciones y compartir experiencias.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/empatia-icon.png"><br>
+                            <a href="#">Empatía</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Creo en mi capacidad para realizar las cosas que me propongo, me esmero y trato de hacer siempre lo mejor posible dentro de mis capacidades. Tengo la capacidad de ver oportunidades de mejoras cuando otros solo ven problemas.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/aptitudPositiva-icon.png"><br>
+                            <a href="#">Actitud positiva</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Aun cuando soy muy expresivo con mis gestos, trato de controlar mis emociones y pensar o reaccionar racionalmente. Me gusta y manejo la auto crítica y las críticas constructivas que me hacen otras personas, eso hace que sea consiente de cómo me ven otras personas.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/proactividad-icon.png"><br>
+                            <a href="#">Soft Skills</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div> 
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Manejo técnicas de Coaching y Feedback que me permiten recibir retroalimentación de mis superiores, ayudar a mi equipo a mejorar los aspectos deficientes y así mismo reconocer las fortalezas de cada uno.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/persona-icon.png"><img src="/icon/persona-icon.png" width="26"><br>
+                            <a href="#">Feedback</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Manejo técnicas de Resolución de problemas, esto me permite evaluar el problema planteado, analizar las posibles soluciones que tengamos, aplicar la solución más viable y medir el impacto que tuvo. Bajo este criterio logro lidiar con los problemas indistintamente de su naturaleza.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/equipo-icon.png"><img src="/icon/engranaje-icom.png"><br>
+                            <a href="#">Problemas/conflictos</a>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="capa">
+                            <p class="texto-card">Utilizar técnicas de control de la Gestión del tiempo me permite organizar mi día a día con niveles de prioridad usando eficientemente el tiempo que dedico a cada actividad pudiendo así cumplir con mis entregables.<p>
+                        </div>
+                        <div class="card__contenido">
+                            <img src="./icon/list-check.png"><br>
+                            <img class="icon-flecha" src="./icon/angulo-circulo-abajo.png" width="20">
+                            <a href="#">Tareas Múltiples</a>
+                        </div>
+                    </div>
+                </div> 
+            </section>            
+            <section class="formacion-Academica__contenedor">
+                <h2 id="formacion__academica" class="titulo">Formación Académica y Cursos</h2>
+                <div class="cardAcademico__contenedor">
+                    <div class="card">
+                        <div class="face card-front">
+                            <img src="./img/img-cuam.jfif">
+                        </div>
+                        <div class="face card-back">
+                            <p class="texto-general">El egresado de esta carrera tendra la capacidad de: </p>
+                            <ul>
+                                <li class="card__lista">* Analizar, diseñar y programar sistemas de computación.</li>
+                                <li class="card__lista">* Capacidad para la toma de desiciones de indole admnistrativo.</li>
+                                <li class="card__lista">* Establecer normas y procedimientos para los sistemas de computacion.</li>
+                                <li class="card__lista">* Realizar estudios de factiilidad y desarrollo. </li>
+                            </ul>
+                        </div>
+                        <div class="card-texto">
+                            <h3 class="card__titulo">Titulo Universitario TSU-Informática</h3>
+                            <p class="card__texto">Año 2005</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face card-front">
+                            <img src="./img/uah1.png" width="220">
+                        </div>
+                        <div class="face card-back">
+                            <p class="texto-general">Este Ingeniero podrá desempeñarse como gerente independiente en el ejercicio libre de su profesión, creando empresas de asistencia técnica y asesoría en áreas de su competencia. También podrá trabajar en organísmos públicos y privados y en compañías dedicadas a la producción de bienes y servicios.</p>
+                        </div>
+                        <div class="card-texto">
+                            <h3 class="card__titulo">Titulo Universitario Ing. en Informática</h3>
+                            <p class="card__texto">Año 2010</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face card-front">
+                            <img src="./img/ucv-logo.jpg" width="200">
+                            <img class="imagen-cisco" src="./img/cisco.png" width="50">    
+                        </div> 
+                        <div class="face card-back">
+                            <p class="texto-general">Un profesional certificado en Cisco CCNA, tiene los conocimientos necesarios para instalar, configurar, diagnosticar y solucionar problemas específicos en una infraestructura de redes que conecta todos los dispositivos dentro de una empresa.</p>
+                        </div>
+                        <div class="card-texto">
+                            <h3 class="card__titulo">Switching and Router CCNA</h3>
+                            <p class="card__texto">Año 2017</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face card-front">
+                            <img src="./img/cetia-logo-540x429.png" width="200">
+                        </div> 
+                        <div class="face card-back">
+                          <p class="texto-general">EL profesional de Administrador de Servidores estará capacitado para instalar, configurar, administrar y solucionar problemas en equipos de servidores físicos y máquinas virtuales. Brindará la seguridad informática necesaria que permita el buen funcionamiento de las computadoras en los puestos de trabajo dentro de las empresas. </p> 
+                        </div> 
+                        <div class="card-texto">
+                            <h3 class="card__titulo">Administrador de Servidores</h3>
+                            <p class="card__texto">Año 2019</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face card-front">
+                            <img src="./img/logo_alura.png" width="200">
+                        </div>
+                        <div class="face card-back">
+                            <p class="texto-general">El participante tendrá la capacidad de desarrollar software garantizando al usuario final una experiencia increíble en la web, usando algunos de los lenguajes de programación más utilizados en el mercado actual, entre los que cuenta HTML, CSS y JavaScript.</p>
+                        </div>
+                        <div class="card-texto">
+                            <h3 class="card__titulo">Frontend/Backend React Developer</h3>
+                            <p class="card__texto">Año 2022 (en curso)</p>
+                        </div>
+                    </div>  
+                </div>
+            </section>
+            <section class="experiencia-profesional">
+                <h2 id="experiencia_profesional" class="titulo">Experiencia Profesional en Programación</h2>
+                <div class="experiencia-profesional__contenido">
+                    <div class="experiencia-profesional__contenedor">
+                        <div class="experiencia-profesional__imagen"> 
+                            <video poster="./img/encriptador.png" id="encriptador__video" class="experiencia__video">
+                                <source src="./videos/encriptador de palabras.mp4">
+                            </video>
+                        </div>
+                        <div class="controladores">
+                            <h4>Encriptador de Texto</h4>
+                            <p class="texto-general">En este reto nos permitió poner en practica algunos de los principios de la programación, donde tratamos de resolver como encriptar textos con JavaScript y posicionar los objetos en el canva con css. Enviar mensaje al usuario para guiarlo en el uso de la herramienta. </p>
+                            <div class="botones">
+                                <button id="repositorio" class="repositorio"><a href="https://caedwin.github.io/Encriptador-de-Texto/" target="_blank">Repositorio</a></button>
+                                <button id="encriptador__demo" class="demo">Ver demo<img class="demo-sonido" src="./icon/sonido.png"></button>
+                                <button id="encriptador__apagar-audio" class="apagar-audio" style="visibility: hidden;"><img src="./icon/stop-sonido.png" class="sin-sonido"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experiencia-profesional__contenedor inversa">
+                        <div class="experiencia-profesional__imagen">
+                            <video poster="./img/ahorcado.png" id="ahorcado__video" class="experiencia__video">
+                                <source src="./videos/JuegodelAhorcado.mp4">
+                            </video>
+                        </div>
+                        <div class="controladores">
+                            <h4>Juego del Ahorcado</h4>
+                            <p class="texto-general">Para el desarrollo de este juego demostramos como posicionar objetos con CSS y resolver como ocultar letras con el uso de JavaScript e interactuar con el usuario de una forma divertida.</p>
+                            <div class="botones">
+                                <button id="repositorio" class="repositorio"><a href="https://caedwin.github.io/Juego-del-Ahorcado/" target="_blank">Repositorio</a></button>
+                                <button id="juego-Ahorcado__demo" class="demo">Ver demo<img class="demo-sonido" src="./icon/sonido.png"></button>
+                                <button id="juego-Ahorcado__apagar-audio" class="apagar-audio" style="visibility: hidden;"><img src="./icon/stop-sonido.png" class="sin-sonido"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experiencia-profesional__contenedor">
+                        <div class="experiencia-profesional__imagen">
+                            <video poster="./img/barberia-alura.png" id="barberiaAlura__video" class="experiencia__video">
+                                <source src="./videos/Barberia Alura.mp4">
+                            </video>
+                        </div>
+                         <div class="controladores">
+                             <h4>Barbería Alura</h4>
+                             <p class="texto-general">Para este diseño pusimos en práctica el uso de HTML y su estructura donde creamos un menú sencillo y posicionar elementos en el canva con css.</p>
+                             <div class="botones">
+                                 <button id="repositorio" class="repositorio"><a href="https://caedwin.github.io/web-Barberia-Alura/index.html" target="_blank">Repositorio</a></button>
+                                 <button id="barberiaAlura__demo" class="demo">Ver demo<img class="demo-sonido" src="./icon/sonido.png"></button>
+                                 <button id="barberiaAlura__apagar-audio" class="apagar-audio" style="visibility: hidden;"><img src="./icon/stop-sonido.png" class="sin-sonido"></button>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="experiencia-profesional__contenedor inversa">
+                        <div class="experiencia-profesional__imagen">
+                            <video poster="./img/sistemas.png" id="buona-vita__video" class="experiencia__video">
+                                <source src="./videos/BuonaVitaNutricion.mp4">
+                            </video>
+                        </div>
+                         <div class="controladores">
+                             <h4>Buona Vita Nutrición</h4>
+                             <p class="texto-general">Con este sistema tratamos de demostrar cómo trabajar con tablas usando HTML y JavaScript para crear interacción con el usuario y manejo de datos usando la memoria temporal del navegador.</p>
+                             <div class="botones">
+                                 <button id="repositorio" class="repositorio"><a href="https://caedwin.github.io/web-control-de-citas/" target="_blank">Repositorio</a></button>
+                                 <button id="buona-vita__demo" class="demo">Ver demo<img class="demo-sonido" src="./icon/sonido.png"></button>
+                                 <button id="buona-vita__apagar-audio" class="apagar-audio" style="visibility: hidden;"><img src="./icon/stop-sonido.png" class="sin-sonido"></button>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="experiencia-profesional__contenedor">
+                        <div class="experiencia-profesional__imagen">
+                            <video poster="./img/recetario.png" id="fruta-fruto__video" class="experiencia__video">
+                                <source src="./videos/Fruta & Fruto.mp4" >
+                            </video>
+                        </div>
+                         <div class="controladores">
+                             <h4>Fruta y Fruto</h4>
+                             <p class="texto-general">En esta página trabajamos los conceptos responsivos ajustando los objetos con CSS y HTML para dispositivos móviles, tabletas y desktop usando los parámetros display y position, organizar las carpetas con las mejores prácticas y estructurar los comandos de forma eficiente.</p>
+                             <div class="botones">
+                                 <button id="repositorio" class="repositorio"><a href="https://caedwin.github.io/web-Recetario-Fruta-Fruto/" target="_blank">Repositorio</a></button>
+                                 <button id="fruta-fruto__demo" class="demo">Ver demo<img class="demo-sonido" src="./icon/sonido.png"></button>
+                                 <button id="frutaFruto__apagar-audio" class="apagar-audio" style="visibility: hidden;"><img src="./icon/stop-sonido.png" class="sin-sonido"></button>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="experiencia-profesional__contenedor inversa">
+                        <div class="experiencia-profesional__imagen">
+                            <video poster="./img/blog.png" id="alura-store__video" class="experiencia__video">
+                                <source src="./videos/Alura Store.mp4">
+                            </video>
+                        </div>
+                         <div class="controladores">
+                             <h4>Alura Storage</h4>
+                             <p class="texto-general">En este diseño ponemos en práctica el uso del método Grip para ordenar los objetos en el canva con CSS y HTML demostrando las bondades que ofrece el método. </p>
+                             <div class="botones">
+                                 <button id="repositorio" class="repositorio"><a href="https://caedwin.github.io/web-Alura-Store/" target="_blank">Repositorio</a></button>
+                                 <button id="alura-store__demo" class="demo">Ver demo<img class="demo-sonido" src="./icon/sonido.png"></button>
+                                 <button id="aluraStore__apagar-audio" class="apagar-audio" style="visibility: hidden;"><img src="./icon/stop-sonido.png" class="sin-sonido"></button>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="experiencia-profesional__contenedor">
+                        <div class="experiencia-profesional__imagen">
+                            <video poster="./img/blog Cursos.png" id="miAlura__video" class="experiencia__video">
+                                <source src="./videos/Mini Alura _ Cursos online.mp4">
+                            </video>
+                        </div>
+                        <div class="controladores">
+                            <h4>Mini Alura</h4>
+                            <p class="texto-general">En este diseño ponemos en práctica el uso del método FlexBox para ordenar los objetos en el canva con CSS y HTML demostrando las bondades que ofrece el método y demostrando que existen varios metodos para lograr encuadrar los obejtos dentro del DOM.</p>
+                            <div class="botones">
+                                <button id="repositorio" class="repositorio"><a href="https://caedwin.github.io/web-Cursos-Mini-Alura/" target="_blank">Repositorio</a></button>
+                                <button id="miAlura__demo" class="demo">Ver demo<img class="demo-sonido" src="./icon/sonido.png"></button>
+                                <button id="miAlura__apagar-audio" class="apagar-audio" style="visibility: hidden;"><img src="./icon/stop-sonido.png" class="sin-sonido"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experiencia-profesional__contenedor inversa">
+                        <div class="experiencia-profesional__imagen">
+                            <video poster="./img/apreira.png" id="apepeira__video" class="experiencia__video">
+                                <source src="./videos/apeperia.mp4">
+                            </video>
+                        </div>
+                        <div class="controladores">
+                            <h4>Apepeira</h4>
+                            <p class="texto-general">Para esta página trabajamos las mejores prácticas usadas para estructurar los comandos en HTML y CSS organizando las etiquetas, clases, id dentro del CSS buscando su fácil entendimiento para realizar mantenimiento futuro del código. </p>
+                            <div class="botones">
+                                 <button id="repositorio" class="repositorio"><a href="" target="_blank">Repositorio</a></button>
+                                 <button id="apepeira__demo" class="demo">Ver demo<img class="demo-sonido" src="./icon/sonido.png"></button>
+                                 <button id="apepeira__apagar-audio" class="apagar-audio" style="visibility: hidden;"><img src="./icon/stop-sonido.png" class="sin-sonido"></button>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </section>
+            <section class="contacto__container">
+                <h2 class="titulo">Contacto</h2>
+                <div class="contacto__contenedor">
+                    <div class="contacto-contenido">
+                        <form class="contacto__formulario">
+
+                            <label for="nombreapellido" class="formato">Nombre y Apellido</label>
+                            <input type="text" id="nombreapellido" class="input-padron" required>
+                            <b id="contadorNombre" class="texto-padron" style="visibility: visible;"></b>
+                            <label for="correoelectronico" class="formato">Correo Electrónico</label>
+                            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+                            <label for="telefono" class="formato">Teléfono</label>
+                            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                            <label for="mensaje" class="formato">Mensaje</label>
+                            <textarea cols="70" rows="5" id="mensajeTexto" class="input-padron" required></textarea>
+                            <p id="numeroLetras" style="visibility:visible" class="texto-padron"></p>
+                            
+                            <fieldset>
+                                <legend>¿Cómo le gustaría que lo contactemos?</legend>
+                                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label> 
+                            </fieldset>
+                        
+                            <fieldset >
+                                <legend>¿En cuál horario prefiere ser atendido?</legend>
+                                <select>
+                                    <option>Mañana</option>
+                                    <option>Tarde</option>
+                                    <option>Noche</option>
+                                </select>
+                            </fieldset>
+                            
+                            <label class="checkbox formato"><input type="checkbox" checked>¿Le gustaría recibir novedades de las actualizaciones?</label>
+                            <input type="submit" value="Enviar formulario" class="enviar">
+            
+                        </form>
+
+                    </div>
+                    <div class="contacto-imagen" width="300">
+                        <img class="contacto-img" >
+                        <nav>
+                            <ul class="contacto__lista">
+                                <li class="contacto-enlace"><a href="tel:+351931159651" target="_blank"><img src="./icon/phone-call-free-icon-font.png"></a></li>
+                                <li class="contacto-enlace"><a href="https://github.com/caedwin" target="_blank"><img src="./icon/github-sign.png"></a></li>
+                                <li class="contacto-enlace"><a href="https://www.linkedin.com/in/edwin-camacho-cordero/" target="_blank"><img src="./icon/linkedin.png"></a></li>
+                                <li class="contacto-enlace"><a href="https://www.instagram.com/ec.developers/" target="_blank"><img src="./icon/instagram.png"></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="./js/principal.js"></script>
+        <script src="./js/calculo-longitud.js"></script>
+        
+        <footer>
+            <img src="./img/logo toro azul.png" width="150">
+            <div class="piePagina">
+                <label class="piePagina__texto">Desarrollado por: Edwin Camacho</label><label class="piePagina__texto"> &copyTodos los derechos reservados 2022 </label>
+            </div>
+         </footer>
+        
+    </body>
+    
+   
+</html>

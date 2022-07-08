@@ -1,0 +1,44 @@
+@media screen and (min-width: 0px) {
+  section.contacto__container div.contacto-contenido form.contacto__formulario {
+    width: 83%;
+  }
+  .contacto-imagen {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  section.contacto__container div.contacto-contenido form.contacto__formulario {
+    width: 100%;
+  }
+  .contacto-imagen {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section.contacto__container div.contacto-contenido form.contacto__formulario {
+    width: 100%;
+  }
+  section.contacto__container .contacto__contenedor {
+    display: flex;
+    flex-direction: row;
+  }
+  .contacto-imagen {
+    display: flex;
+    background-image: url(https://www.signapool.com/wp-content/uploads/2017/06/contacta-con-nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 60%;
+  }
+  section.contacto__container div.contacto-contenido {
+    width: 50%;
+  }
+  nav ul.contacto__lista {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 34rem 2rem 0 2rem;
+  }
+  nav ul.contacto__lista li{
+    margin-left:3rem;
+  }
+}

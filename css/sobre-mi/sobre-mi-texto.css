@@ -1,0 +1,21 @@
+section.sobreMi_contenido p.sobreMi__texto {
+  line-height: 1.5;
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+section.sobreMi_contenido h2 {
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+section.sobreMi_contenido img.sobreMi__firma {
+  width: 20rem;
+}
+section.sobreMi_contenido {
+  background-color: var(--background-azul-claro);
+}
+
+section.sobreMi_contenido b.texto-resaltado {
+  font-weight: 700;
+  color: var(--fuente-gris-oscuro);
+}

@@ -1,0 +1,11 @@
+header.cabecera {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header.cabecera_contenedor {
+  background: var(--background-negro-pasas);
+  width: 100%;
+  opacity: 80%;
+}

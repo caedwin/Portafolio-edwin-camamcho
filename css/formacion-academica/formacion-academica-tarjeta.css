@@ -1,0 +1,58 @@
+.cardAcademico__contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+}
+.card .face {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card .card-front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+  transition-timing-function: background-color 15ms linear,
+    box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card .card-front img.imagen-cisco {
+  position: absolute;
+}
+.card div.card-texto {
+  text-align: left;
+  position: absolute;
+  line-height: 1.5;
+}
+.card div.card-texto h3.card__titulo {
+  font-weight: 800;
+  text-align: inherit;
+}
+
+.card .card-back {
+  transform: perspective(600px) rotateY(180deg);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  transition-timing-function: background-color 15ms linear,
+    box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+div.card div.card-back p {
+  opacity: 1;
+}
+
+.card:hover .card-front {
+  transform: perspective(600px) rotateY(180deg);
+  transition: all 500ms ease-out;
+}
+.card:hover .card-back {
+  transform: perspective(600px) rotateY(0deg);
+  transition: all 500ms ease-out;
+}

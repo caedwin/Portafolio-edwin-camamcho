@@ -1,0 +1,13 @@
+nav.menu ul.menu__items li.header__enlace {
+  display: inline;
+  padding-left: 0.5rem;
+  color: var(--fuente-blanco-talco);
+}
+nav.menu ul.menu__items li.header__enlace:nth-last-child(1) {
+  font-weight: 800;
+}
+nav.menu ul.menu__items li.header__enlace a:hover {
+  border-bottom: 0.3rem;
+  border-color: blue;
+  border-style: solid;
+}
